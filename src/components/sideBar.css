@@ -1,0 +1,10 @@
+.border{
+    display:inline-block;
+    position: fixed;   
+    height:100%;
+    border-right: 2px solid #ece4e4;
+}
+.margin{
+    height:15px;  
+}
+
