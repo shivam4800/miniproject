@@ -11,8 +11,7 @@ class SideBar extends React.Component{
     const icon1=<i className="small clone icon"></i>;
     const arrow=<i className="angle right icon"></i>;
     return(
-      <div className="border">
-      
+      <div className="border" >
         <ProSidebar >
           <Menu iconShape="circle">
             <MenuItem >ABC Games</MenuItem><br/>
@@ -23,7 +22,7 @@ class SideBar extends React.Component{
             </div>
             </MenuItem>
             
-            <a href="https://us04web.zoom.us/postattendee?id=3" target="_blank"><MenuItem icon={icon} >Home</MenuItem></a>
+           <MenuItem icon={icon} >Home</MenuItem>
             <SubMenu title="Categories" icon={icon1}>
               <MenuItem  icon={arrow}>Action</MenuItem>
               <MenuItem icon={arrow}>Action</MenuItem>
@@ -41,6 +40,7 @@ class SideBar extends React.Component{
           </SidebarFooter>
           
         </ProSidebar>
+        
         
       </div>
     );
